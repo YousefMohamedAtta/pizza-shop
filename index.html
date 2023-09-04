@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almaghrabi-Restourant</title>
+    <!--css file-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <div class="parent-contatainer">
+        <!--navbar start-->
+        <nav class="nav-bar">
+            <div class="logo-parnt">
+                <img src="image\logo.jpg" alt="" srcset="">
+            </div>
+            <div class="nav-child-right">
+                <i class="fa-solid fa-bars"></i>
+            <div class="nav-links">
+                <a href="#baner">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            </div>
+        </nav>
+        <!--navbar end-->
+        <!--main start-->
+        <main id="baner">
+            <h1 data-aos="fade-right">
+                Welcome In 
+                <br>
+                Almaghrabi Restourant
+            </h1>
+        </main>
+        <!--main end-->
+        <!--menu start-->
+        <section class="menu" id="menu">
+            <h1 class="title">menu</h1>
+            <div class="parent-menu">
+                <div class="menu-food-item" data-aos="fade-right">
+                    <img src="image\pizza 1.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="menu-food-item">
+                    <img src="image\pizza 2.jpg" alt="" srcset="" data-aos="zoom-in">
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="menu-food-item" data-aos="fade-left">
+                    <img src="image\pizza 3.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="menu-food-item">
+                    <img src="image\pizza 4.jpg" alt="" srcset=""  data-aos="fade-right">
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="menu-food-item">
+                    <img src="image\pizza 5.jpg" alt="" srcset="" data-aos="zoom-in">
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="menu-food-item">
+                    <img src="image\pizza 6.jpg" alt="" srcset=""data-aos="fade-left">
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--menu end-->
+        <!--about start-->
+        <section class="about" id="about">
+            <div data-aos="fade-right"> <h1 class="title">About</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda temporibus aliquam accusamus nemo ullam doloremque porro voluptatem cumque facilis repudiandae. Voluptate maiores sunt quo voluptatem quae repellat. Cum, voluptate iusto.</p>
+            </div>
+        </section>
+        <!--about end-->
+        <!--services start-->
+        <section class="services" id="services">
+            <h1 class="title">services</h1>
+        <div class="parent-services">
+            <div data-aos="flip-left">
+                <img src="./image/icon1.svg" alt="">
+                <h1 class="title">Delivery Is Faster</h1>
+            </div>
+            <div data-aos="flip-left">
+                <img src="./image/icon2.svg" alt="">
+                <h1 class="title">Less Money</h1>
+            </div>
+            <div data-aos="flip-left">
+                <img src="./image/icon3.svg" alt="">
+                <h1 class="title">High Quality</h1>
+            </div>
+        </div>
+        </section>
+        <!--services end-->
+        <!--contact start-->
+        <section class="contact" id="contact">
+            <h1 class="title">contact</h1>
+            <form action="">
+                <div class="parent-input" data-aos="zoom-in">
+                        <input type="text" placeholder="Full Name" >
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Phone Number" >
+                </div>
+                <div class="parent-input" data-aos="zoom-in">
+                        <input type="text"  placeholder=" Message....."  class="message">
+                        <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+        <!--contact end-->
+        <!--Footer start-->
+        <footer>
+            <p>
+                Copyright@ <a>Almaghrabi </a>2022
+            </p>
+            <a id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                +201159532856
+            </a>
+        </footer>
+        <!--Footer end-->
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration:1500});
+    </script>
+</body> 
+</html>
